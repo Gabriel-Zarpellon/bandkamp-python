@@ -38,18 +38,18 @@ Padrão de resposta (STATUS 201)
 
 ```json
 {
-	"username": [
-		"This field is required."
-	],
-	"email": [
-		"This field is required."
-	],
-	"password": [
-		"This field is required."
-	],
-	"artistic_name": [
-		"This field is required."
-	]
+  "username": [
+     "This field is required."
+   ],
+  "email": [
+     "This field is required."
+   ],
+  "password": [
+     "This field is required."
+   ],
+  "artistic_name": [
+     "This field is required."
+   ]
 }
 ```
 
@@ -57,13 +57,12 @@ STATUS 400 - Email ou username já cadastrados
 
 ```json
 {
-	"username": [
-		"A user with that username already exists."
-	],
-	"email": [
-		"user with this email already exists."
-	]
-}
+  "username": [
+     "A user with that username already exists."
+   ],
+  "email": [
+     "user with this email already exists."
+   ]
 }
 ```
 
@@ -92,7 +91,7 @@ Padrão de resposta (STATUS 200)
 
 ```json
 {
-	"detail": "No active account found with the given credentials"
+  "detail": "No active account found with the given credentials"
 }
 ```
 
@@ -100,12 +99,12 @@ Padrão de resposta (STATUS 200)
 
 ```json
 {
-	"username": [
-		"This field is required."
-	],
-	"password": [
-		"This field is required."
-	]
+  "username": [
+     "This field is required."
+   ],
+  "email": [
+     "This field is required."
+   ]
 }
 ```
 
@@ -129,7 +128,7 @@ Padrão de resposta (STATUS: 200)
 
 ```json
 {
-	"detail": "No User matches the given query."
+  "detail": "No User matches the given query."
 }
 ```
 
@@ -164,7 +163,7 @@ Padrão de resposta (STATUS 200)
 
 ```json
 {
-	"detail": "Authentication credentials were not provided."
+  "detail": "Authentication credentials were not provided."
 }
 ```
 
@@ -172,7 +171,7 @@ Padrão de resposta (STATUS 200)
 
 ```json
 {
-	"detail": "You do not have permission to perform this action."
+  "detail": "You do not have permission to perform this action."
 }
 ```
 
@@ -180,7 +179,7 @@ Padrão de resposta (STATUS 200)
 
 ```json
 {
-	"detail": "No User matches the given query."
+  "detail": "No User matches the given query."
 }
 ```
 
@@ -195,7 +194,7 @@ Esta rota não tem um corpo de resposta (STATUS: 204)
 
 ```json
 {
-	"detail": "Authentication credentials were not provided."
+  "detail": "Authentication credentials were not provided."
 }
 ```
 
@@ -203,7 +202,7 @@ Esta rota não tem um corpo de resposta (STATUS: 204)
 
 ```json
 {
-	"detail": "You do not have permission to perform this action."
+  "detail": "You do not have permission to perform this action."
 }
 ```
 
@@ -211,7 +210,7 @@ Esta rota não tem um corpo de resposta (STATUS: 204)
 
 ```json
 {
-	"detail": "No User matches the given query."
+  "detail": "No User matches the given query."
 }
 ```
 
@@ -250,7 +249,7 @@ Padrão de resposta (STATUS 201)
 
 ```json
 {
-	"detail": "Authentication credentials were not provided."
+  "detail": "Authentication credentials were not provided."
 }
 ```
 
@@ -258,12 +257,12 @@ Padrão de resposta (STATUS 201)
 
 ```json
 {
-	"name": [
-		"This field is required."
-	],
-	"year": [
-		"This field is required."
-	]
+  "name": [
+    "This field is required."
+   ],
+  "year": [
+    "This field is required."
+   ]
 }
 ```
 
@@ -320,7 +319,7 @@ Padrão de resposta (STATUS: 201)
 
 ```json
 {
-	"detail": "Authentication credentials were not provided."
+  "detail": "Authentication credentials were not provided."
 }
 ```
 
@@ -328,7 +327,7 @@ Padrão de resposta (STATUS: 201)
 
 ```json
 {
-	"detail": "No Album matches the given query."
+  "detail": "No Album matches the given query."
 }
 ```
 
@@ -336,12 +335,12 @@ Padrão de resposta (STATUS: 201)
 
 ```json
 {
-	"title": [
-		"This field is required."
-	],
-	"duration": [
-		"This field is required."
-	]
+  "title": [
+    "This field is required."
+   ],
+  "duration": [
+    "This field is required."
+   ]
 }
 ```
 
@@ -371,7 +370,7 @@ Padrão de resposta (STATUS: 200)
 
 ```json
 {
-	"detail": "No Album matches the given query."
+  "detail": "No Album matches the given query."
 }
 ```
 
