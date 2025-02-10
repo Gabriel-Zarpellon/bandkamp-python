@@ -292,7 +292,7 @@ Padrão de resposta (STATUS: 200)
 }
 ```
 
-## Criação de música POST /albums/<int:albunm_id>/songs/ - Esta rota requer autenticação
+## Criação de música POST /albums/<int:album_id>/songs/ - Esta rota requer autenticação
 Padrão de corpo
 
 ```json
